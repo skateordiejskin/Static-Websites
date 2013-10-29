@@ -1,0 +1,48 @@
+@media only screen and (min-width:740px){
+	body{
+		background: url(../img/bg2.png) no-repeat center center fixed #000;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+}
+
+.mobileLogo img{max-width: 200px;}
+.subMenu{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	margin-bottom: 1000px;
+	}
+
+.s1, .s3 {min-height: 300px;}
+.s2{min-height: 200px}
+.section{
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.about{
+	width:100%;
+	padding-top: 100px;
+	background-color: transparent;
+	}
+@media only screen and (min-width:740px){
+	.about p{color:white;}
+	}
+.green{color:#49A05B;}
+.white{color:white;}
+.larger{font-size: larger;}
+/*.twitter-timeline{z-index: 2;}*/
+.xxlarge{font-size: xx-large;}
+
+li.facebook a:hover{background-color: #3B5998;}
+li.twitter a:hover{background-color: #4099FF;}
+li.linkedin a:hover{background-color: #3B5998;}
+li.instagram a:hover{background-color: #d2b48c;}
+li.blogger a:hover{background-color: #FF6600;}
+a.resume:hover, a.resume:link, a.resume:visited, a.resume:active{
+	color:#49A05B;
+	text-decoration:underline;}

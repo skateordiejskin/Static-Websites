@@ -1,0 +1,22 @@
+/*.colorBar {
+	background-color:#4A619C;
+	height:135px;
+	position:absolute;
+
+	width:100%;
+	z-index:-1;
+}*/
+
+.nivoSlider img{
+    width:500px;
+    height:300px; 
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+	}
+
+.nivoSlider{
+ 	width:500px;
+    height:300px; 
+    }

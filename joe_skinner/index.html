@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Joe Skinner | Home</title>
+	    <link rel="stylesheet" href="/public/assets/css/bootstrap.min.css" type="text/css">
+	    <link rel="stylesheet" href="/public/assets/css/lightbox.css" type="text/css">
+	    <link rel="stylesheet" href="/public/assets/css/style.css" type="text/css">
+
+	</head>
+	<body onload="setTimeout(function(){window.scrollTo(0, 1)}, 100);">
+		<div class="navbar navbar-inverse subMenu" role="navigation">
+			<div class="container">
+				<div class="col-xs-2 col-sm-2 hidden-md hidden-lg pull-left mobileLogo">
+					<a href="http://joeskinner.me" class="navbar-brand" id="mobileLogo"><img src="/public/assets/img/logo2.png" alt=""></a>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="push"></div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#" id="sTop"><h4>Home</h4></a></li>
+						<li><a href="#" id="s1"><h4>Portfolio</h4></a></li>
+						<li class="hidden-xs hidden-sm">
+							<a href="http://joeskinner.me" class="navbar-brand">
+								<img src="/public/assets/img/logo2.png" alt="">
+							</a>
+						</li>
+						<li><a href="#" id="s2"><h4>Contact</h4></a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<h4>Social<span class="caret"></span></h4>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="facebook"><a href="https://www.facebook.com/skinnerj" target="_blank">Facebook</a></li>
+								<li class="twitter"><a href="https://twitter.com/SkinnerDesigns" target="_blank">Twitter</a></li>
+								<li class="linkedin"><a href="http://www.linkedin.com/pub/joe-skinner/34/499/8b6/" target="_blank">LinkedIn</a></li>
+								<li class="instagram"><a href="http://instagram.com/skateordiejskin" target="_blank">Instagram</a></li>
+								<li class="blogger"><a href="http://skateordiejskin.blogspot.com" target="_blank">Blogger</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<div class="container sTop section">
+				<div class="row">
+					<p class="lead">Hello! I'm Joe Skinner, a hybrid  <span class="green larger">Designer/Programmer</span> from Staten Island, NY.</p>
+					<p class="lead larger">I'm passionate about web technologies, databases, and coffee.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<p class="lead portfolioIntro white pull-right">Building a more <span class="green">BEAUTIFUL</span> web, one site at a time.</p>
+			</div>
+			<div class="row">
+				<div class="section s1">
+					<div class="col-md-3">
+						<a class="portfolio" href="public/assets/img/portfolio/ElizabethJanice.png" data-lightbox="image-1" title="">
+							<img src="public/assets/img/portfolio/thumbnails/ElizabethJanice.small.png" alt="" class="img-thumbnail">
+						</a>
+						<h4 class="white">Elizabeth Janice</h4>
+					</div>
+
+					<div class="col-md-3">
+						<a class="portfolio" href="public/assets/img/portfolio/ContEd.png" data-lightbox="image-1">
+							<img src="public/assets/img/portfolio/thumbnails/ContEd.small.png" class="img-thumbnail" alt="">
+						</a>
+						<h4 class="white">Continuing Education-CSI</h4>
+					</div>
+
+					<div class="col-md-3">
+						<a class="portfolio" href="public/assets/img/portfolio/MiniAdmin.png" data-lightbox="image-1">
+							<img src="public/assets/img/portfolio/thumbnails/MiniAdmin.small.png" class="img-thumbnail" alt="">
+						</a>
+						<h4 class="white">MiniAdmin</h4>
+					</div>
+
+					<div class="col-md-3">
+						<a class="portfolio" href="public/assets/img/portfolio/Clip.png" data-lightbox="image-1">
+							<img src="public/assets/img/portfolio/thumbnails/Clip.small.png" class="img-thumbnail" alt="">
+						</a>
+						<h4 class="white">CUNY Language Immersion Program</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="section s2">
+					<div class="col-md-6">
+						<p class="white xxlarge lead">You can get in touch with me either from the form on the right or send an email to joe [AT] joeskinner.me</p>
+						<p class="green lead"><a href="/public/assets/JosephSkinner.pdf" target="_blank" class="resume">Download my résumé</a></p>
+					</div>
+						<div class="col-md-6">
+							<h3 class="white">Get In Touch!</h3>
+							<form role="form" onsubmit="return submitForm();" id="contact">
+								<div class="form-group">
+									<label for="firstName" class="white">First Name*</label>
+									<input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter First Name" required>
+								</div>
+								<div class="form-group">
+									<label for="lastName" class="white">Last Name*</label>
+									<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+								</div>
+								<div class="form-group">
+									<label for="phone" class="white">Phone</label>
+									<input type="number" class="form-control" id="phone" name="phone" placeholder="Enter Phone Number">
+								</div>
+								<div class="form-group">
+									<label for="email" class="white">Email*</label>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
+								</div>
+								<div class="form-group">
+									<label for="comment" class="white">Comment*</label>
+									<textarea class="form-control" rows="3" id="comment" name="comment"></textarea>
+								</div>
+								<button type="submit" id="submit" class="btn btn-success">Send It</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="container">
+				<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<p class="text-muted credit">Copyright 2013 Joe Skinner</p>
+					</div>
+				</div>
+			</div>
+		<script src="public/assets/js/jquery.js"></script>
+		<script src="public/assets/js/bootstrap.min.js"></script>
+		<script src="public/assets/js/jquery.smint.js"></script>
+		<script src="/public/assets/js/lightbox-2.6.min.js"></script>
+		<script type="text/javascript" src="/public/assets/js/email.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$('.subMenu').smint({'scrollSpeed' : 1000});});
+		</script>
+	</body>
+</html>
